@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Título da aplicação
-st.title('Otimização de Entrega de Drone com Programação Dinâmica')
+st.title('Otimização de Entrega de Drone')
 
 # Dados de exemplo: pacotes disponíveis para entrega
 packages = {
@@ -22,7 +22,7 @@ st.sidebar.header('Parâmetros da Entrega')
 capacidade = st.sidebar.number_input(
     'Capacidade do Drone (kg)',
     min_value=1,
-    max_value=100,
+    max_value=200,
     value=10
 )
 
