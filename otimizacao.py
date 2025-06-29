@@ -22,7 +22,7 @@ st.sidebar.header('Parâmetros da Entrega')
 capacidade = st.sidebar.number_input(
     'Capacidade do Drone (kg)',
     min_value=1,
-    max_value=200,
+    max_value=100,
     value=10
 )
 
